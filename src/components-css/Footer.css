@@ -1,0 +1,148 @@
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+
+
+
+@media (max-width: 320px) {
+  .span-email, .span-phone {
+    width: 6rem;
+    display: inline-block;
+    text-wrap:wrap;
+        word-break: break-all;
+
+  }
+
+   .span-email a , .span-phone a{
+    /* display: inline-block; */
+    /* width: 105.6px; */
+    word-break: break-all;
+  }
+
+  .bottom-footer {
+    word-break: break-all;
+    text-wrap: wrap;
+  }
+}
+
+@media (max-width: 150px) {
+  .span-email, .span-phone {
+    width: 3rem;
+    text-wrap:wrap
+  }
+
+   .span-email a , .span-phone a{
+    /* display: inline-block; */
+    /* width: 105.6px; */
+    word-break: break-all;
+  }
+}
+
+
+@media (orientation: landscape) and (min-width: 1000px) {
+  .bottom-footer h1 {
+    padding-right: 10em;
+  }
+
+  .socialmedia-container {
+    padding-left: 10em;
+  }
+}
+
+
+
+@media (orientation: landscape) {
+  .socialmedia-container {
+    justify-content: flex-end;
+    flex-grow: 1;
+  }
+}
+
+@media (orientation: portrait) and (max-width: 700px) {
+  .contact-list {
+    flex-direction: column;
+    align-items: start;
+    width: 100% !important;
+  }
+}
+@media (orientation: portrait) {
+  .bottom-footer {
+    flex-direction: column;
+  }
+
+  /* .socialmedia-container {
+        justify-content: flex-end;
+    }
+
+    .socialmedia-links {
+        margin:0
+    } */
+}
+
+.socialmedia-links {
+  margin: 0;
+  height: auto;
+}
+
+.socialmedia-links li {
+  position: "relative";
+  width: "0.5rem";
+  height: "auto";
+}
+
+.contact-list {
+  display: flex;
+  gap: 1rem;
+}
+
+.contact-list li {
+  color: rgba(77, 125, 238, 0.5);
+  width: auto;
+  max-width: 100%;
+  
+}
+
+
+@media (orientation: landscape) and (max-width: 700px) {
+    .contact-list {
+    margin-inline: 0;
+    right:0;
+  }
+}
+
+
+@media (orientation: landscape)  {
+    .contact-list {
+    /* flex-direction: column; */
+    align-items: start;
+    justify-content: center;
+  }
+}
+
+.socialmedia-links a:focus {
+  outline: 1px solid #fff; /* צבע ורוחב של הבורדר בעת מיקוד */
+  outline-offset: 1px; /* רווח בין הבורדר לבין האלמנט עצמו */
+  border-radius: 1px;
+}
+
+/* אם אתה מעדיף לעצב את ה-li עצמו: */
+.socialmedia-links li:focus-within {
+  outline: 1px solid #fff; 
+  outline-offset: 1px;
+  border-radius: 1px;
+}
+
+@media (max-width: 150px) {
+  .socialmedia-container {
+    flex-direction: column !important ;
+  }
+  .socialmedia-links {
+
+  height: 1rem;
+}
+}

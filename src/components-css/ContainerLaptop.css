@@ -1,0 +1,36 @@
+/* components-css/ContainerLaptop.css */
+
+.laptop {
+  position: absolute;
+  width: 50%;
+  /* width: auto; */
+
+  height: 10rem;
+  /* This is the animation (transition) property */
+  /* transition: left 0.5s ease-in-out, transform 2s ease-in-out; */
+}
+
+@media (orientation: portrait) {
+  .laptop {
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (orientation: landscape) and (max-width: 700px) {
+  .laptop {
+    width: 19%;
+    top: 50%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (orientation: landscape) {
+  .laptop {
+    top: 50%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+  }
+}

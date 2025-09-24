@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+html { 
+
+    /* box-sizing: border-box */
+}
+
+*, *:before, *:after { /* זה החלק החשוב שחסר לך */
+    box-sizing: inherit;
+    /* all: unset; */
+  }
+/* 
+  main {
+    padding-top:5rem
+  } */
+
+
+  .link-in-text:link {
+  color: #0077cc; /* כחול עדין */
+  text-decoration: none; /* בלי קו תחתון אם לא רוצים */
+}
+
+
+@media (max-width: 205px) {
+  * {
+    font-size: 0.5rem !important
+  }
+}
+
+

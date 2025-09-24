@@ -1,0 +1,12 @@
+.about-me-container p {
+    margin-block:1em;
+    width: 90%;
+    max-width:800px;
+    margin-inline: auto;
+}
+
+
+.about-me-container {
+    position:relative;
+    color:white;
+}

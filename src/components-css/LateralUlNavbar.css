@@ -1,0 +1,39 @@
+.lateralUlNavbar {
+    
+right:0;
+justify-content: start;
+}
+
+.lateralUlNavbar li {
+    
+text-align: right;
+}
+
+.lateral-ul-navbar-element:focus-visible {
+  outline: 2px solid rgba(0, 0, 120, 1);
+
+}
+
+
+
+@keyframes moveRightTop {
+    0% {
+        /* top: -10rem; */
+        right: -1rem;
+    }
+
+    100% {
+        /* top: 0rem; */
+        right: 0rem;
+    }
+}
+
+.lateralUlNavbar {
+    animation: moveRightTop 0.5s ease-in-out;
+}
+
+@media (max-width: 100px) {
+    .lateralUlNavbar {
+        width: '50px'
+    }
+}

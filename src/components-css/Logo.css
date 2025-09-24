@@ -1,0 +1,57 @@
+@media (orientation: landscape) {
+  .logo-size,
+  .job-description {
+    font-size: 1rem;
+  }
+
+  .logo-section-container {
+    width: 40%;
+  }
+  .svg-width {
+    width: 1rem;
+  }
+  
+  .svg-container-scrolledBeyond {
+    width: 0.8rem !important;
+  }
+
+  .svg-container-no-scrolledBeyond {
+    width: 1.4rem !important;
+  }
+}
+
+@media (orientation: portrait) {
+  .logo-section-container {
+    width: 100%;
+  }
+
+  .span-text-no-scrolledBeyond {
+    font-size: 1.1rem !important;
+    
+  }
+
+  .svg-container-no-scrolledBeyond {
+    width: 0.8rem !important;
+  }
+
+    .svg-container-scrolledBeyond {
+    width: 0.8rem !important;
+  }
+
+    .svg-width {
+    width: 0.8rem !important;
+  }
+
+  .logo-size,
+  .job-description {
+    font-size: 1rem;
+  }
+
+
+}
+
+.svg {
+  display: inline;
+  margin-right: 0.05rem;
+  height: fit-content;
+}

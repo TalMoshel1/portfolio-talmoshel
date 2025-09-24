@@ -1,0 +1,45 @@
+.article div{
+    line-height:2;
+    margin-inline: auto;
+}
+
+@media (orientation: portrait) {
+    .article div{
+    width: 90%;
+ 
+}
+}
+
+@media (orientation: landscape) and (min-width: 800px) {
+    .article div{
+    width: 50%;
+ 
+}
+
+
+}
+
+@media (orientation: landscape) and (max-width: 800px) {
+    .article div{
+    width: 90%;
+ 
+}
+}
+
+
+
+.article {
+    gap:1rem;
+    justify-content: center;
+
+}
+
+.landing-page-list li {
+    /* height: auto; */
+        text-wrap: wrap;
+}
+
+  .link-in-text {
+  color: #0077cc; 
+  text-decoration: none; 
+}

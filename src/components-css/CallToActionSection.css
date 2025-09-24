@@ -1,0 +1,59 @@
+
+
+@media screen and (orientation: landscape) {
+    .dynamic-top {
+        top: 50%
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .dynamic-top {
+        top: 70%
+    }
+}
+
+
+@media (min-width: 300px) {
+.call-to-action-h1 {
+    font-size: 2rem
+}
+}
+
+@media (max-width: 170px) {
+.call-to-action-h1 {
+    font-size: 0.75rem
+}
+}
+
+@media (max-width: 300px) {
+.call-to-action-h1 {
+    font-size: 1.5rem
+}
+}
+
+.call-to-action-text-container {
+        display: inline-block;
+        max-width: 400px
+
+}
+
+.call-to-action-text-container h1 {
+
+    width: 100%;
+    white-space:nowrap;
+    overflow: hidden;
+    animation: typing 3.5s steps(19), cursor .4s step-end infinite alternate;
+    
+}
+
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}

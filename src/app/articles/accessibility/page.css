@@ -1,0 +1,51 @@
+.article div{
+    line-height:2;
+    margin-inline: auto;
+}
+
+@media (orientation: portrait) {
+    .article div{
+    width: 90%;
+ 
+}
+}
+
+@media (orientation: landscape) and (max-width: 800px) {
+    .article div{
+    width: 90%;
+ 
+}
+}
+
+@media (orientation: landscape) and (min-width: 800px) {
+    .article div{
+    width: 50%;
+ 
+}
+}
+
+.article {
+    gap:1rem;
+    justify-content: center;
+
+}
+
+.landing-page-list li {
+    /* height: auto; */
+        text-wrap: wrap;
+}
+
+.articles-a {
+  color: blue;
+}
+
+  .link-in-text:link {
+  color: #0077cc; /* כחול עדין */
+  text-decoration: none; /* בלי קו תחתון אם לא רוצים */
+}
+
+strong {
+    margin-block:2em;
+    font-weight: 900;
+    font-size:1.2rem;
+}

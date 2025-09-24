@@ -1,0 +1,23 @@
+.projects-container {
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Scrolling down → scale up & show */
+.projects-container.show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Scrolling up → scale down & hide */
+.projects-container.hide {
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+
+@media (orientation: landscape) and (min-width: 700px) { 
+  .technologies-wrapper {
+  }
+}

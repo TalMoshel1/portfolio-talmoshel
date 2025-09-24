@@ -1,0 +1,22 @@
+
+
+@media screen and (orientation: landscape) {
+    .dynamic-top {
+        top: 50%
+    }
+
+    .ux-ui-header-h1 {
+        width: 55%
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .dynamic-top {
+        top: 70%
+    }
+
+    .ux-ui-header-h1 {
+        width: 90%
+    }
+}
+

@@ -1,0 +1,20 @@
+
+
+
+@media (max-width: 300px) {
+.contact-h2 {
+    font-size: 1.5rem
+}
+}
+
+@media (min-width: 300px) {
+.contact-h2 {
+    font-size: 2rem
+}
+}
+
+@media (max-width: 150px) {
+.contact-h2{
+    font-size: 0.25rem
+}
+}

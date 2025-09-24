@@ -1,0 +1,54 @@
+@media screen and (orientation: portrait) {
+  .dynamic-height {
+    height: 30rem
+  }
+  .header { 
+    height: 30rem;
+  }
+    .large-svg-foward {
+        display:none
+    }
+
+    .call-to-action-h1 {
+        width:100%
+    }
+ 
+}
+
+@media screen and (orientation: landscape) {
+  .dynamic-height {
+    height: 25rem
+  }
+  .header { 
+    height: 25rem;
+  }
+
+
+    .call-to-action-h1 {
+        width:50%
+    }
+ 
+}
+
+ul {
+    box-sizing: border-box;
+    margin: 0 auto
+}
+
+/* ul li {
+    width: 30%;
+} */
+
+@keyframes slide-in {
+    0% {
+      top: -50%;
+    }
+    50% {
+      top: 75%;
+    }
+    100% {
+      top: 70%;
+    }
+  }
+  
+ 
