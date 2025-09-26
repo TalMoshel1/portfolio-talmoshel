@@ -36,6 +36,7 @@ const Navbar: React.FC = () => {
         zIndex: 5,
         height: scrolledBeyond ? "3rem" : "5rem",
         transition: "height 0.5s ease-in-out, background-color 0.3s ease-in-out",
+        // border:'1px solid red'
       }}
       id="main-menu"
       aria-label="Main navigation menu"
