@@ -17,7 +17,7 @@ import Link from "next/link";
 import HeroImage from "@/components/HeroImage";
 import SvgBottomShapedCorner from "@/components/SvgBottomShapedCorner";
 import AboutMe from "./components-css/AboutMe";
-import Skills from "./components/Skills.tsx";
+import Skills from "./components/Skills";
 
 import Projects from "@/components/Projects";
 import Educations from "@/components/Educations";

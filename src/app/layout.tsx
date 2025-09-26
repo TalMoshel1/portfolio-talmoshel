@@ -18,8 +18,8 @@ export const metadata: Metadata = {
     openGraph: {
     title: "Tal Moshel - FULLSTACK DEV - Portfolio",
     description: "Projects, About me, Education and Skills",
-    url: "https://www.talmoshel.co.il/",
-    siteName: "talmoshel.co.il",
+    url: "https://portfolio-talmoshel.onrender.com",
+    siteName: "Tal Moshel - Portfolio",
     images: [
       {
         url: "https://www.talmoshel.co.il/opengraph-image.png", 
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     type: "website",
   },
   description:
-    "מתכנת React" /* this is the default text shown when posting a link to our website in social media */,
+    "Showing my Projects, About, Education and Skills" /* this is the default text shown when posting a link to our website in social media */,
 
 };
 
