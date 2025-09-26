@@ -16,8 +16,8 @@ export const metadata: Metadata = {
       "%s - טל מושל" /*this is for /posts... for example*/,
   },
     openGraph: {
-    title: "טל מושל | אתר רשמי",
-    description: "ברוך הבא לאתר הרשמי של טל מושל",
+    title: "Tal Moshel - FULLSTACK DEV - Portfolio",
+    description: "Projects, About me, Education and Skills",
     url: "https://www.talmoshel.co.il/",
     siteName: "talmoshel.co.il",
     images: [
@@ -75,7 +75,7 @@ export default function RootLayout({
               minHeight:'100svh'
             }}
           >
-                      <ShowTermsModal />
+                      {/* <ShowTermsModal /> */}
 
             {/* <AboutHeaderLayout/> */}
             {/* <Navbar /> */}

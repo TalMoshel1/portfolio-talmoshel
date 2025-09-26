@@ -1,6 +1,6 @@
 import React from "react";
 // import SkillCard from './SkillCard.tsx'
-import { CircleLayout } from "./components-css/CircleLayout.tsx";
+import { CircleLayout } from "./components-css/CircleLayout";
 import './Skills.css'
 
 const Skills: React.FC = () => {
