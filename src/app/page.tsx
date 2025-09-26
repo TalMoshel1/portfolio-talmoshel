@@ -23,8 +23,7 @@ import Projects from "@/components/Projects";
 import Educations from "@/components/Educations";
 export const metadata: Metadata = {
   title:
-    "טל מושל - בוט עסקי - עמודי נחיתה - תיקון באגים - נגישות - חווית משתמש",
-};
+"Tal Moshel - FULLSTACK DEV - Portfolio"};
 
 const varela = Varela_Round({
   subsets: ["hebrew"],

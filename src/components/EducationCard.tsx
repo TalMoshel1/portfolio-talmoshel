@@ -5,7 +5,7 @@ import "../components-css/Educations.css";
 type EducationCardProps = {
   title: string;
   instructor: string;
-  year: number;
+  year: string;
   indexType: string;
 };
 

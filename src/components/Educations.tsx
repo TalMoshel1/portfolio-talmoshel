@@ -1,6 +1,5 @@
 import React from "react";
-import SkillCard from "./SkillCard.tsx";
-import EducationCard from "./EducationCard.tsx";
+import EducationCard from "./EducationCard";
 import "../components-css/Educations.css";
 
 const Educations: React.FC = () => {
