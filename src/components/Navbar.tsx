@@ -89,20 +89,34 @@ const Navbar: React.FC = () => {
         </button>
         {!lateralUlOpen && (
           <ul className="navbar-links ul-display-none ul-shown">
+         
+    
             <li>
-              <a href="/">בית</a>
-            </li>
-            <li>
-              <a href="/privacy">פרטיות</a>
-            </li>
-            <li>
-              <a style={{}} href="#contact-form">
-                צור קשר
+              <a style={{}} href="#projects-container">
+                PROJECTS
               </a>
             </li>
-            <li>
-              <a href="/terms-of-use">תנאי שימוש</a>
+                   <li>
+              <a style={{}} href="#about-me-container">
+                ABOUT ME
+              </a>
             </li>
+
+                        <li>
+              <a style={{}} href="#education-container">
+                EDUCATION
+              </a>
+            </li>
+
+                                  <li>
+              <a style={{}} href="#skills-main">
+                MY SKILLS
+              </a>
+            </li>
+
+            
+
+            
           </ul>
         )}
         <TemporaryLogo />

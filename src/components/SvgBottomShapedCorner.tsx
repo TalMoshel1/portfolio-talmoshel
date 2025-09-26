@@ -16,18 +16,22 @@ const SvgBottomShapedCorner: React.FC<Props> = ({ container }) => {
         zIndex: 4,
         transform: container === "formContainer" ? "rotate(180deg)" : undefined,
       }}
+      // className='projects-backgroundColor'
     >
       <path
         stroke="rgba(249, 248, 247, 1)"
         stroke-width="1"
         fill="rgba(249, 248, 247, 1)"
         d="M0 6 v0 6 h50 Z"
+
       />
       <path
         stroke="rgba(249, 248, 247, 1)"
         stroke-width="1"
         fill="rgba(249, 248, 247, 1)"
         d="M100 6 v0 6 h-50 Z"
+              
+
       />
     </svg>
   );

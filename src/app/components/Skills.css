@@ -1,0 +1,8 @@
+
+
+@media (max-width: 1060px) {
+.skills-container {
+flex-direction: column;
+align-items: center;
+}
+}

@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import Link from "next/link";
 import ProjectPreview from "./ProjectPerview";
@@ -7,85 +6,85 @@ import { items } from "./HorizontalScroll";
 const ServicesForBigScreen = () => {
   const services = [{}];
 
-//       const items = [
+  //       const items = [
 
-//   {
-//         name: "Schedule and request boxing classes",
-//     type: 'Frontend',
-//     githubUrl: 'https://github.com/TalMoshel1/BoxingSchedule',
-//     websiteUrl: 'https://scheduleandrequest-boxingclasses.onrender.com/calendar',
-//     technologies: ['React', 'TypeScript', 'CSS', 'HTML', 'Node.js', 'Express', 'MongoDB', 'Mongoose']
-//   },
-//     {
-//         name: "Schedule and request boxing classes",
-//     type: 'Frontend',
-//     githubUrl: 'https://github.com/TalMoshel1/BoxingSchedule',
-//     websiteUrl: 'https://scheduleandrequest-boxingclasses.onrender.com/calendar',
-//     technologies: ['React', 'TypeScript', 'CSS', 'HTML', 'Node.js', 'Express', 'MongoDB', 'Mongoose']
-//   },
-//     {
-//         name: "Schedule and request boxing classes",
-//     type: 'Frontend',
-//     githubUrl: 'https://github.com/TalMoshel1/BoxingSchedule',
-//     websiteUrl: 'https://scheduleandrequest-boxingclasses.onrender.com/calendar',
-//     technologies: ['React', 'TypeScript', 'CSS', 'HTML', 'Node.js', 'Express', 'MongoDB', 'Mongoose']
-//   },
-//       {
-//         name: "Schedule and request boxing classes",
-//     type: 'Frontend',
-//     githubUrl: 'https://github.com/TalMoshel1/BoxingSchedule',
-//     websiteUrl: 'https://scheduleandrequest-boxingclasses.onrender.com/calendar',
-//     technologies: ['React', 'TypeScript', 'CSS', 'HTML', 'Node.js', 'Express', 'MongoDB', 'Mongoose']
-//   },
-//       {
-//         name: "Schedule and request boxing classes",
-//     type: 'Frontend',
-//     githubUrl: 'https://github.com/TalMoshel1/BoxingSchedule',
-//     websiteUrl: 'https://scheduleandrequest-boxingclasses.onrender.com/calendar',
-//     technologies: ['React', 'TypeScript', 'CSS', 'HTML', 'Node.js', 'Express', 'MongoDB', 'Mongoose']
-//   },
-//       {
-//         name: "Schedule and request boxing classes",
-//     type: 'Frontend',
-//     githubUrl: 'https://github.com/TalMoshel1/BoxingSchedule',
-//     websiteUrl: 'https://scheduleandrequest-boxingclasses.onrender.com/calendar',
-//     technologies: ['React', 'TypeScript', 'CSS', 'HTML', 'Node.js', 'Express', 'MongoDB', 'Mongoose']
-//   },
-  
-// ];
+  //   {
+  //         name: "Schedule and request boxing classes",
+  //     type: 'Frontend',
+  //     githubUrl: 'https://github.com/TalMoshel1/BoxingSchedule',
+  //     websiteUrl: 'https://scheduleandrequest-boxingclasses.onrender.com/calendar',
+  //     technologies: ['React', 'TypeScript', 'CSS', 'HTML', 'Node.js', 'Express', 'MongoDB', 'Mongoose']
+  //   },
+  //     {
+  //         name: "Schedule and request boxing classes",
+  //     type: 'Frontend',
+  //     githubUrl: 'https://github.com/TalMoshel1/BoxingSchedule',
+  //     websiteUrl: 'https://scheduleandrequest-boxingclasses.onrender.com/calendar',
+  //     technologies: ['React', 'TypeScript', 'CSS', 'HTML', 'Node.js', 'Express', 'MongoDB', 'Mongoose']
+  //   },
+  //     {
+  //         name: "Schedule and request boxing classes",
+  //     type: 'Frontend',
+  //     githubUrl: 'https://github.com/TalMoshel1/BoxingSchedule',
+  //     websiteUrl: 'https://scheduleandrequest-boxingclasses.onrender.com/calendar',
+  //     technologies: ['React', 'TypeScript', 'CSS', 'HTML', 'Node.js', 'Express', 'MongoDB', 'Mongoose']
+  //   },
+  //       {
+  //         name: "Schedule and request boxing classes",
+  //     type: 'Frontend',
+  //     githubUrl: 'https://github.com/TalMoshel1/BoxingSchedule',
+  //     websiteUrl: 'https://scheduleandrequest-boxingclasses.onrender.com/calendar',
+  //     technologies: ['React', 'TypeScript', 'CSS', 'HTML', 'Node.js', 'Express', 'MongoDB', 'Mongoose']
+  //   },
+  //       {
+  //         name: "Schedule and request boxing classes",
+  //     type: 'Frontend',
+  //     githubUrl: 'https://github.com/TalMoshel1/BoxingSchedule',
+  //     websiteUrl: 'https://scheduleandrequest-boxingclasses.onrender.com/calendar',
+  //     technologies: ['React', 'TypeScript', 'CSS', 'HTML', 'Node.js', 'Express', 'MongoDB', 'Mongoose']
+  //   },
+  //       {
+  //         name: "Schedule and request boxing classes",
+  //     type: 'Frontend',
+  //     githubUrl: 'https://github.com/TalMoshel1/BoxingSchedule',
+  //     websiteUrl: 'https://scheduleandrequest-boxingclasses.onrender.com/calendar',
+  //     technologies: ['React', 'TypeScript', 'CSS', 'HTML', 'Node.js', 'Express', 'MongoDB', 'Mongoose']
+  //   },
+
+  // ];
 
   return (
     <>
-             {items.map((item, index) => {
-                return    <li
-          key={index}
-          className='service-item'
-          // style={{
-          //   alignContent:'center',
-          //   height:'fit-content',
-          //   // minHeight: '24.35rem',
-          //   border: '1px solid black',
-          //   padding:'1rem',
-          //   // flexGrow: '1',
-          //   display: 'flex !important',
-          //   flexDirection: 'column',
-          //   justifyContent: 'start !important',
-          //   gap:'0.75em !important'
-    
-          // }}
-          style={{display: 'flex', flexDirection:'column', position:'relative'}}
-        >
-                  
-              <ProjectPreview {...item} key={index} view='big-screen' />
-                
-</li>
+      {items.map((item, index) => {
+        return (
+          <li
+            key={index}
+            className="service-item"
+            // style={{
+            //   alignContent:'center',
+            //   height:'fit-content',
+            //   // minHeight: '24.35rem',
+            //   border: '1px solid black',
+            //   padding:'1rem',
+            //   // flexGrow: '1',
+            //   display: 'flex !important',
+            //   flexDirection: 'column',
+            //   justifyContent: 'start !important',
+            //   gap:'0.75em !important'
 
-                  }
-
-                  )} 
-
-           
-           </>
+            // }}
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              position: "relative",
+              // backgroundColor: "rgba(255, 255, 255, 0.5)",
+            }}
+          >
+            <ProjectPreview {...item} key={index} view="big-screen" />
+          </li>
+        );
+      })}
+    </>
   );
 };
 

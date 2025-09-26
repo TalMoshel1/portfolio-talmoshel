@@ -27,12 +27,12 @@ const ProjectPreview: React.FC<ProjectPreviewProps> = ({
     return (
        <>
              {type && (
-                    <strong style={{ alignSelf:'flex-end', backgroundColor:'#8cf28c', alignContent:'center', width:'fit-content', padding:'0.25em'}}> {type}</strong>
+                    <strong style={{ alignSelf:'flex-end', backgroundColor:'rgba(77, 125, 238, 0.5)', alignContent:'center', width:'fit-content', padding:'0.25em'}}> {type}</strong>
             )}
 
          {name && <h2 style={{textWrap:'wrap', fontSize: '1.5rem', textAlign:'left'}}>{name}</h2>}
-      
-            {githubUrl && (
+            <div style={{textWrap:'wrap', backgroundColor:'inherit'}}>
+         {githubUrl && (
                     <a href={githubUrl} target="_blank" rel="noopener noreferrer">
                         GitHub Repository
                     </a>
@@ -42,12 +42,14 @@ const ProjectPreview: React.FC<ProjectPreviewProps> = ({
                         Live Website
                     </a>
             )}
+            </div>
+   
             {technologies && technologies.length > 0 && (
                 <div className={`technologies-wrapper ${view==='big-screen' && 'technologies-bottom'}`} style={{backgroundColor:'transparent'}}>
                     <strong style={{alignSelf: 'flex-start'}}>Technologies:</strong>
                     <ul style={{display: 'flex', flexDirection:'row',flexWrap: 'wrap' ,justifyContent:'start', gap:'0.5em', listStyleType: 'none', padding: 0, margin: 0}}>
                         {technologies.map((tech) => (
-                            <li className='technology' style={{width: 'fit-content',padding:'0.25em',color:'rgb(248 205 5)', backgroundColor:'rgba(103, 99, 99, 1)', borderRadius:'none', textWrap:'wrap'}} key={tech}>{tech}</li>
+                            <li className='technology' style={{width: 'fit-content',padding:'0.25em',color:'black', backgroundColor:'rgba(77, 125, 238, 0.5)', borderRadius:'none', textWrap:'wrap'}} key={tech}>{tech}</li>
                         ))}
                     </ul>
                 </div>

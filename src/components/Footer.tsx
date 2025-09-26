@@ -3,6 +3,13 @@ import "../components-css/Footer.css";
 import Image from "next/image";
 import AnimatedLogo from "./AnimatedLogo";
 import SearchEngineSvg from "./SearchEngineSvg";
+import { Varela_Round } from "next/font/google";
+
+const varela = Varela_Round({
+  subsets: ["hebrew"],
+  weight: "400",
+  display: "swap",
+});
 
 export default function Footer() {
   return (
@@ -13,7 +20,7 @@ export default function Footer() {
         height: "auto",
         position: "relative",
         top: "0",
-        maxWidth: '100vw'
+        maxWidth: "100vw",
       }}
     >
       <div>
@@ -57,10 +64,12 @@ export default function Footer() {
                   display: "inline-block",
                   marginInline: "auto",
                   marginBottom: "0.5em",
-                  fontSize: "1.5rem",
+                  fontSize: "2rem",
+                  fontWeight: "900",
                 }}
+                className={varela.className}
               >
-                צור קשר
+                CONTACT
               </h1>
               <ul
                 className="contact-list"
@@ -80,7 +89,10 @@ export default function Footer() {
                     style={{ alignContent: "center" }}
                   >
                     {" "}
-                    <a href="mailto:talmoshel444@gmail.com" style={{color:'white'}}>
+                    <a
+                      href="mailto:talmoshel444@gmail.com"
+                      style={{ color: "white" }}
+                    >
                       talmoshel444@gmail.com
                     </a>
                   </span>
@@ -91,7 +103,7 @@ export default function Footer() {
                   </div>
                   <span
                     className="contact-list-span span-phone"
-                    style={{ alignContent: "center", color: 'white'}}
+                    style={{ alignContent: "center", color: "white" }}
                   >
                     0522233573
                   </span>
@@ -129,10 +141,10 @@ export default function Footer() {
             }}
             className="bottom-footer"
           >
-            <h1 dir="rtl">
-              &copy; {new Date().getFullYear()} כל הזכויות שמורות לטל מושל פיתוח
-              אתרים
-            </h1>
+            <span dir="ltr">
+              &copy; {new Date().getFullYear()} Tal Moshel Web Development. All
+              Rights Reserved
+            </span>
 
             <div
               style={{
@@ -145,13 +157,16 @@ export default function Footer() {
               className="socialmedia-container"
             >
               <span
-  style={{
-    // width: "max-content",
-    // flexGrow: "1",
-    textAlign: "right",
-    alignSelf: "center",
-  }}
-> עקבו אחרי ב</span>
+                style={{
+                  // width: "max-content",
+                  // flexGrow: "1",
+                  textAlign: "right",
+                  alignSelf: "center",
+                }}
+              >
+                {" "}
+               Follow Me On
+              </span>
               <ul
                 className="socialmedia-links"
                 style={{ display: "flex", gap: "1em", position: "relative" }}

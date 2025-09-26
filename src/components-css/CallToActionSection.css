@@ -1,4 +1,7 @@
-
+.Hi::after {
+     content: '\1F44B'; /* The waving hand emoji */
+  margin-left: 10px; /* Adjust spacing as needed */
+}
 
 @media screen and (orientation: landscape) {
     .dynamic-top {

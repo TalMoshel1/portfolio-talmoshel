@@ -75,7 +75,7 @@ const CallToActionSection: React.FC = () => {
                     }}
                     className={`${varela.className} call-to-action-h1`}
                 >
-                    Hi, I am Tal Moshel
+                    <span className='Hi'>Hi</span>, I am Tal Moshel
                 </h1>
                 <button
                     style={{
@@ -92,7 +92,7 @@ const CallToActionSection: React.FC = () => {
                     onMouseOut={(e) => (e.currentTarget.style.backgroundColor = 'rgb(240, 240, 240)	')}
                 >
                        <a style={{display: 'block',width: '100%', height: '100%'}} href="#contact-form">
-              דברו איתי - נתחיל לשפר
+             Download CV
             </a>
                 </button>
             </div>

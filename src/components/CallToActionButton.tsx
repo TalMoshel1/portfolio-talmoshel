@@ -18,7 +18,7 @@ const CallToActionButton = () => (
             style={{ display: 'block', width: '100%', height: '100%', color: 'inherit', textDecoration: 'none' }}
             href="#contact-form"
         >
-            דברו איתי - נתחיל לשפר
+           Download CV
         </a>
     </button>
 );

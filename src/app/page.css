@@ -23,13 +23,31 @@ ul {
   width: 45%;
   z-index:2;
   /* height: fit-content; */
-    height: 60svh;
+    height: 40svh;
 
   flex-grow: 1;
   border: 1px solid rgba(0, 0, 0, 0.5);
   /* outline: 8px ridge rgb(170 50 220 / 0.6); */
   transition: transform 0.5s ease-in-out;
 }
+
+@media (min-width: 700px) {
+  .services li:not(.technology) {
+
+    height: 35rem;
+
+}
+}
+
+@media (min-width: 800px) {
+  .services li:not(.technology) {
+
+    height: 20rem;
+
+}
+}
+
+
 
 .service-item {
     padding: 1em;

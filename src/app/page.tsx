@@ -17,7 +17,10 @@ import Link from "next/link";
 import HeroImage from "@/components/HeroImage";
 import SvgBottomShapedCorner from "@/components/SvgBottomShapedCorner";
 import AboutMe from "./components-css/AboutMe";
+import Skills from "./components/Skills.tsx";
+
 import Projects from "@/components/Projects";
+import Educations from "@/components/Educations";
 export const metadata: Metadata = {
   title:
     "טל מושל - בוט עסקי - עמודי נחיתה - תיקון באגים - נגישות - חווית משתמש",
@@ -32,6 +35,7 @@ const varela = Varela_Round({
 export default function AboutPage() {
   return (
     <>
+
       <AboutHeaderLayout />
 
       <main
@@ -68,7 +72,9 @@ export default function AboutPage() {
           style={{
             position: "relative",
             top: "0",
-            backgroundColor: "rgba(255,255,255,0.8)",
+            // backgroundColor: "rgba(255,255,255,0.8)",
+                        backgroundColor: "rgba(255,255,255,0.8)",
+
             minHeight: "70svh",
 
             // width: "100%",
@@ -80,9 +86,14 @@ export default function AboutPage() {
             alignItems: "center",
             paddingBottom: "0px !important",
           }}
+          // className='projects-backgroundColor'
         >
           {/* <main style={{ minHeight: "200vh", position: "relative" }}> */}
+          <AnimatedOnScrollButNotOnLoad >
           <Projects />
+
+          </AnimatedOnScrollButNotOnLoad>
+
           {/* </main> */}
         </div>
       </main>
@@ -133,7 +144,7 @@ export default function AboutPage() {
               position: "absolute",
               height: "100%",
               width: "100%",
-              backgroundColor: "rgba(119, 153, 234, 0.5)",
+              backgroundColor: "rgba(0,0,0,0.7)",
             }}
           ></div>
 
@@ -146,7 +157,29 @@ export default function AboutPage() {
           ></div>
 
           <main id="">
+            <AnimatedOnScrollButNotOnLoad>
             <AboutMe />
+
+            </AnimatedOnScrollButNotOnLoad>
+
+                     {/* <AnimatedOnScrollButNotOnLoad> */}
+                               <AnimatedOnScrollButNotOnLoad >
+
+            <Educations />
+                </AnimatedOnScrollButNotOnLoad >
+
+            <div style={{position:'relative', height:'fit-content', width:'100%'}}>
+                                 
+                                  {/* <AnimatedOnScrollButNotOnLoad > */}
+
+                                  <Skills />
+                                {/* </ AnimatedOnScrollButNotOnLoad> */}
+            </div>
+
+
+
+
+            {/* </AnimatedOnScrollButNotOnLoad> */}
           </main>
         </div>
       </main>

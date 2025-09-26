@@ -15,7 +15,10 @@
 .services .fake-border-horizontal,
 .fake-border-vertical {
   position: absolute;
-  background-color: black;
+  /* background-color: black; */
+  /* background-color:rgba(77, 125, 238, 0.2) */
+    background-color:grey
+
 }
 
 .fake-border-horizontal {
@@ -95,4 +98,13 @@
     height: 30% !important;
     padding: 2em;
   }
+}
+
+
+.projects-backgroundColor {
+    background-image: linear-gradient(
+    to right,
+    rgba(121, 124, 243, 0.7),
+    rgba(164, 168, 252, 1)
+  );
 }

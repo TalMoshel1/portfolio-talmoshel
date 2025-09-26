@@ -1,0 +1,62 @@
+.zoogi {
+
+position:relative;
+/* left:-50% */
+}
+
+.not-zoogi {
+position:relative;
+/* left: 50%; */
+
+}
+
+.zoogi::after {
+        content: '';
+    position:absolute;
+    right:3px;
+    transform: translateX(calc(100%));
+    top:-1px;
+    width:1rem;
+        height:calc(100% + 2px);
+
+    background-color:white
+    
+}
+
+@media (max-width: 500px)  {
+    .zoogi::after {
+            right:-0.5px;
+
+    }
+
+    .not-zoogi::before {
+        left:4px !important;
+    }
+}
+
+.not-zoogi::before {
+        content: '';
+    position:absolute;
+    left:0;
+transform: translateX(calc(-100%));
+
+    top:-1px;
+    /* width:calc(1rem - 1px); */
+        width:1rem;
+
+     height:calc(100% + 2px);
+
+    background-color:white
+}
+
+.li-zoogi {
+right:calc(50% + 0.4rem);
+/* border:1px solid white */
+
+}
+
+.li-not-zoogi {
+    left:calc(50% + 0.4rem);
+    /* border:1px solid white */
+
+}

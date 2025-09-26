@@ -33,6 +33,7 @@ const ProjectsSection = () => {
 
   return (
     <div 
+    id='projects-container'
   className={`projects-container ${
     scrollDirection === "down" ? "show" : scrollDirection === null? "hide": "show"
   }`}
@@ -40,11 +41,12 @@ const ProjectsSection = () => {
                       {/* <AnimatedOnScrollButNotOnLoad> */}
                              <header
         style={{
-          fontSize: "1.5rem",
+          fontSize: "2rem",
           backgroundColor: "transparent",
           textAlign: "center",
           marginTop: "2em",
-          color: 'black'
+          color: 'rgb(77, 125, 238);',
+           fontWeight:'900'
         }}
       >
         Projects
@@ -101,6 +103,7 @@ const ProjectsSection = () => {
                   alignItems: "center",
                   justifyContent: "start",
                   flexWrap: "wrap",
+                  marginBottom:'2em'
                 }}
                 className="services"
               >
@@ -115,11 +118,11 @@ const ProjectsSection = () => {
                 <ServicesForBigScreen />
                 <div
                   className="fake-border-horizontal"
-                  style={{ bottom: "-1rem", left: "-1rem" }}
+                  style={{ bottom: "1rem", left: "-1rem" }}
                 ></div>
                 <div
                   className="fake-border-vertical"
-                  style={{ bottom: "-1rem", left: "-1rem" }}
+                  style={{ bottom: "1rem", left: "-1rem" }}
                 ></div>
               </ul>
             </div>

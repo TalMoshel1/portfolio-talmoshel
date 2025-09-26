@@ -27,7 +27,7 @@ export const items = [
   },
 
   {
-    name: "Schedule and request boxing classes",
+    name: "Track and request boxing classes",
     type: "Frontend",
     githubUrl: "https://github.com/TalMoshel1/BoxingSchedule",
     websiteUrl:
@@ -69,7 +69,12 @@ const HorizontalScroll: React.FC = () => (
           key={i}
           className="scrollisgListItem"
           style={{
-            alignContent: "center",
+            // backgroundColor:'rgba(255, 255, 255, 0.5)',
+            // alignContent: "center",
+                        alignContent: "start",
+                        display:'flex',
+                        gap:'1em',
+
             height:'fit-content',
             // height: "-webkit-fill-available",
 
@@ -77,10 +82,8 @@ const HorizontalScroll: React.FC = () => (
             border: "1px solid black",
             padding: "1rem",
             flexGrow: "1",
-            display: "flex !important",
             flexDirection: "column",
             justifyContent: "start !important",
-            gap: "0.75em !important",
           }}
         >
           <ProjectPreview {...item} />
