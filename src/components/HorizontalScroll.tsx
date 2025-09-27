@@ -21,7 +21,7 @@ export const items = [
     {
     name: "CV Generator",
     type: "Backend",
-    githubUrl: "https://github.com/TalMoshel1/talmoshel-portfolio",
+    githubUrl: "https://github.com/TalMoshel1/CVGenerator",
     websiteUrl: "",
     technologies: ["Java", "OpenAI", "Docker", "Handlebars", "HTML", "CSS"],
   },
@@ -29,7 +29,7 @@ export const items = [
     name: "Portfolio",
     type: "Frontend",
     githubUrl: "https://github.com/TalMoshel1/talmoshel-portfolio",
-    websiteUrl: "",
+    websiteUrl: "https://portfolio-talmoshel.onrender.com/",
     technologies: ["Next.js", "TypeScript", "CSS", "HTML"],
   },
 
