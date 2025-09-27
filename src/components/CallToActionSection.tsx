@@ -81,15 +81,15 @@ const CallToActionSection: React.FC = () => {
                     style={{
                         padding: "0.75em",
                         color: "black",
-                        backgroundColor: 'rgb(240, 240, 240)',
+                        backgroundColor: 'rgb(231 255 0)',
                         fontSize: "1rem",
                         fontWeight: 700,
                         transition: 'background-color 0.5s ease',
 
                     }}
 
-                    onMouseOver={(e) => (e.currentTarget.style.backgroundColor = 'rgba(240, 240, 240, 0.8)	')}
-                    onMouseOut={(e) => (e.currentTarget.style.backgroundColor = 'rgb(240, 240, 240)	')}
+                    onMouseOver={(e) => (e.currentTarget.style.backgroundColor = 'rgb(195 215 0)')}
+                    onMouseOut={(e) => (e.currentTarget.style.backgroundColor = 'rgb(231 255 0)')}
                 >
                        <a style={{display: 'block',width: '100%', height: '100%'}}   href="/Tal_Moshel_CV.pdf"
   download="Tal_Moshel_CV.pdf"
