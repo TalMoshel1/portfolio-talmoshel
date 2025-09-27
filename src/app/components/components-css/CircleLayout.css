@@ -1,0 +1,18 @@
+    .skill-name {
+        font-size: 1.8rem;
+    }
+
+
+    @media (orientation: landscape){
+        .circle {
+            width: 30vw;
+            height: 30svh;
+        }
+    }
+
+        @media (orientation: portrait){
+        .circle {
+            width: 80vw;
+            height: 30svh;
+        }
+    }

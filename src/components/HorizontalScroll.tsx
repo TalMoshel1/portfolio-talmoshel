@@ -18,6 +18,13 @@ export const items = [
       "OpenAI",
     ],
   },
+    {
+    name: "CV Generator",
+    type: "Backend",
+    githubUrl: "https://github.com/TalMoshel1/talmoshel-portfolio",
+    websiteUrl: "",
+    technologies: ["Java", "OpenAI", "Docker", "Handlebars", "HTML", "CSS"],
+  },
   {
     name: "Portfolio",
     type: "Frontend",

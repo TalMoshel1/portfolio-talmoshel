@@ -1,4 +1,5 @@
 import React from "react";
+import './CircleLayout.css'
 
 interface CircleLayoutProps {
   items: any[];
@@ -14,8 +15,8 @@ export const CircleLayout: React.FC<CircleLayoutProps> = ({
 
   return (
     <svg
-      width="30vw"   // 👈 רוחב לפי חלון
-      height="30vh"  // 👈 גובה לפי חלון
+      // width="35vw"   
+      // height="35vh"  
       viewBox={`0 0 ${size} ${size}`} // שומר יחס נכון
       className="circle"
     >
@@ -41,8 +42,9 @@ export const CircleLayout: React.FC<CircleLayoutProps> = ({
             y={y}
             textAnchor="middle"
             alignmentBaseline="middle"
-            fontSize="24"
+            // fontSize="24"
             fill="white"
+            className='skill-name'
           >
             {item}
           </text>

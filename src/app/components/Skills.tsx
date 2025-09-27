@@ -4,7 +4,7 @@ import { CircleLayout } from "./components-css/CircleLayout";
 import './Skills.css'
 
 const Skills: React.FC = () => {
-  const backend = ["Node.js", "Nest.js", "MongoDB", "SQL", "Docker"];
+  const backend = ["Node.js", "Java", "SpringBoot", "Nest.js", "MongoDB", "SQL", "Cassandra"];
 
   const frontEnd = [
     "JavaScript",
@@ -15,7 +15,7 @@ const Skills: React.FC = () => {
     "HTML",
   ];
 
-  const others = ["Rest API's", "Git"];
+  const others = ["Rest API's", "Git", "Docker"];
 
   return (
     <main id='skills-main' style={{ color: "white", marginInline: "auto", textAlign: "center" }}>

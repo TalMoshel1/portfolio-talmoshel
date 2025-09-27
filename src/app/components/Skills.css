@@ -1,6 +1,6 @@
 
 
-@media (max-width: 1060px) {
+@media (orientation: portrait) {
 .skills-container {
 flex-direction: column;
 align-items: center;

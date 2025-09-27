@@ -22,10 +22,11 @@ export const CircleLayout: React.FC<CircleLayoutProps> = ({ items, radius = 120 
             y={y}
             textAnchor="middle"
             alignmentBaseline="middle"
-            fontSize="16"
+            fontSize="50"
             fill="black"
+            style={{fontSize:'5.5rem'}}
           >
-            {item}
+            {/* {item} */}
           </text>
         );
       })}
