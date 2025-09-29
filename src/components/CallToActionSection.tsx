@@ -91,8 +91,8 @@ const CallToActionSection: React.FC = () => {
                     onMouseOver={(e) => (e.currentTarget.style.backgroundColor = 'rgb(195 215 0)')}
                     onMouseOut={(e) => (e.currentTarget.style.backgroundColor = 'rgb(231 255 0)')}
                 >
-                       <a style={{display: 'block',width: '100%', height: '100%'}}   href="/Tal_Moshel_CV_FullStack.pdf"
-  download="Tal_Moshel_CV_FullStack.pdf"
+                       <a style={{display: 'block',width: '100%', height: '100%'}}   href="/Tal Moshel Fullstack dev.pdf"
+  download="Tal Moshel Fullstack dev.pdf"
 >
              Download CV
             </a>
