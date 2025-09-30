@@ -88,10 +88,10 @@ export default function AboutPage() {
           // className='projects-backgroundColor'
         >
           {/* <main style={{ minHeight: "200vh", position: "relative" }}> */}
-          <AnimatedOnScrollButNotOnLoad >
+          {/* <AnimatedOnScrollButNotOnLoad > */}
           <Projects />
 
-          </AnimatedOnScrollButNotOnLoad>
+          {/* </AnimatedOnScrollButNotOnLoad> */}
 
           {/* </main> */}
         </div>
