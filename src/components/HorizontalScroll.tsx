@@ -7,7 +7,7 @@ export const items = [
   {
     name: "Smart Lead Bot",
     type: "Backend",
-    githubUrl: "https://github.com/TalMoshel1/server-automation",
+    githubUrl: "https://github.com/TalMoshel1/Immediate-Lead-Engagement",
     websiteUrl: "",
     technologies: [
       "Node.js",
@@ -38,7 +38,7 @@ export const items = [
     type: "Frontend",
     githubUrl: "https://github.com/TalMoshel1/BoxingSchedule",
     websiteUrl:
-      "https://scheduleandrequest-boxingclasses.onrender.com/calendar",
+      "https://scheduleandrequest-boxingclasses.onrender.com",
     technologies: ["React", "JavaScript", "CSS", "HTML", "Luxon.js"],
   },
   {
