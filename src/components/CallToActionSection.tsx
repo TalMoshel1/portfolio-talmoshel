@@ -77,6 +77,8 @@ const CallToActionSection: React.FC = () => {
                 >
                     <span className='Hi'>Hi</span>, I am Tal Moshel
                 </h1>
+                <h2
+                                    className={`${varela.className}`} style={{fontSize:'1.5rem'}}>FULL STACK DEVELOPER</h2>
                 <button
                     style={{
                         padding: "0.75em",
