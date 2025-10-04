@@ -87,6 +87,7 @@ const CallToActionSection: React.FC = () => {
                         transition: 'background-color 0.5s ease',
 
                     }}
+                    className='animate-live'
 
                     onMouseOver={(e) => (e.currentTarget.style.backgroundColor = 'rgb(195 215 0)')}
                     onMouseOut={(e) => (e.currentTarget.style.backgroundColor = 'rgb(231 255 0)')}

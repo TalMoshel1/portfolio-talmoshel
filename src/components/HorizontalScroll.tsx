@@ -4,28 +4,7 @@ import "../app/components-css/HorizontalScroll.css";
 import ProjectPreview from "./ProjectPerview";
 
 export const items = [
-  {
-    name: "Smart Lead Bot",
-    type: "Backend",
-    githubUrl: "https://github.com/TalMoshel1/Immediate-Lead-Engagement",
-    websiteUrl: "",
-    technologies: [
-      "Node.js",
-      "TypeScript",
-      "GreenAPI",
-      "Google API Speed Insight",
-      "ICalendar.js",
-      "OpenAI",
-    ],
-  },
     {
-    name: "CV Generator",
-    type: "Backend",
-    githubUrl: "https://github.com/TalMoshel1/CVGenerator",
-    websiteUrl: "",
-    technologies: ["Java", "OpenAI", "Docker", "Handlebars", "HTML", "CSS"],
-  },
-  {
     name: "Portfolio",
     type: "Frontend",
     githubUrl: "https://github.com/TalMoshel1/talmoshel-portfolio",
@@ -48,6 +27,28 @@ export const items = [
     websiteUrl: "https://appointment-back-qd2z.onrender.com/calendar",
     technologies: ["React", "JavaScript", "CSS", "HTML", "Luxon.js"],
   },
+  {
+    name: "Smart Lead Bot",
+    type: "Backend",
+    githubUrl: "https://github.com/TalMoshel1/Immediate-Lead-Engagement",
+    websiteUrl: "",
+    technologies: [
+      "Node.js",
+      "TypeScript",
+      "GreenAPI",
+      "Google API Speed Insight",
+      "ICalendar.js",
+      "OpenAI",
+    ],
+  },
+    {
+    name: "CV Generator",
+    type: "Backend",
+    githubUrl: "https://github.com/TalMoshel1/CVGenerator",
+    websiteUrl: "",
+    technologies: ["Java", "OpenAI", "Docker", "Handlebars", "HTML", "CSS"],
+  },
+
 ];
 
 const HorizontalScroll: React.FC = () => (
