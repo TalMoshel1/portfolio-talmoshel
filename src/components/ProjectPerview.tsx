@@ -31,14 +31,14 @@ const ProjectPreview: React.FC<ProjectPreviewProps> = ({
             )}
 
          {name && <h2 style={{textWrap:'wrap', fontSize: '1.5rem', textAlign:'left'}}>{name}</h2>}
-            <div style={{textWrap:'wrap', backgroundColor:'inherit'}}>
+            <div style={{textWrap:'wrap', backgroundColor:'inherit', display:'flex', flexDirection:'column', alignItems:'start'}}>
          {githubUrl && (
                     <a href={githubUrl} target="_blank" rel="noopener noreferrer">
                         GitHub Repository
                     </a>
             )}
             {websiteUrl && (
-                    <a href={websiteUrl} target="_blank" rel="noopener noreferrer">
+                    <a className='animate-live' href={websiteUrl} target="_blank" rel="noopener noreferrer">
                         Live Website
                     </a>
             )}

@@ -141,3 +141,10 @@
 }
 }
 
+
+
+.technologies-bottom {
+    position:absolute !important;
+    bottom: 1rem;
+}
+

@@ -58,6 +58,12 @@ ul {
   transform: scale(1.02);
 }
 
+
+.animate-live::after {
+
+
+}
+
 .service-item span {
   border: "1px solid black";
 }
