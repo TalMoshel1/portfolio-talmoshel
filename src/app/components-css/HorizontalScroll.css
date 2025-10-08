@@ -20,8 +20,10 @@
   }
 
   .scrollisgListItem  {
-    width: 55vw !important;
-    min-height: 30.35rem !important;
+    width: 70vw !important;
+    /* min-height: 30.35rem !important; */
+        min-height: 41.5725rem !important;
+
 }
 }
 
