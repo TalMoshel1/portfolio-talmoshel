@@ -1,6 +1,3 @@
-Perfect — here’s your refined and **complete README.md**, updated to include the use of **WEBP images** for optimized performance and strong attention to **accessibility (a11y)** standards.
-It keeps a professional tone while highlighting your technical reasoning 👇
-
 ---
 
 # 🧠 Tal Moshel — Portfolio
@@ -61,3 +58,4 @@ Every element — from component structure to image format — was built with **
 * **Custom Hooks** for reusability and animation control
 * **Full accessibility compliance** across all devices and input methods
 * **Pseudo elements** for elegant visual layering without extra markup
+
