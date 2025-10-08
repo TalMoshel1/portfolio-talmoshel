@@ -61,11 +61,3 @@ Every element — from component structure to image format — was built with **
 * **Custom Hooks** for reusability and animation control
 * **Full accessibility compliance** across all devices and input methods
 * **Pseudo elements** for elegant visual layering without extra markup
-
----
-
-## 🧾 License
-
-This project is open for **educational and personal inspiration**.
-For collaboration or portfolio review — feel free to reach out!
-
