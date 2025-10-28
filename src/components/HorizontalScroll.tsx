@@ -12,6 +12,28 @@ export const items = [
     technologies: ["Next.js", "TypeScript", "CSS", "HTML"],
   },
 
+    {
+    name: "Shop-Worldwide",
+    type: "Backend",
+    githubUrl: "https://github.com/TalMoshel1/python-shop",
+    technologies: ["Docker", "Python", "Postgres", "Swagger", "JWT"],
+  },
+
+   {
+    name: "Smart Lead Bot",
+    type: "Backend",
+    githubUrl: "https://github.com/TalMoshel1/Immediate-Lead-Engagement",
+    websiteUrl: "",
+    technologies: [
+      "Node.js",
+      "TypeScript",
+      "GreenAPI",
+      "Google API Speed Insight",
+      "ICalendar.js",
+      "OpenAI",
+    ],
+  },
+
   {
     name: "Track and request boxing classes",
     type: "Frontend",
@@ -27,26 +49,27 @@ export const items = [
     websiteUrl: "https://appointment-back-qd2z.onrender.com/calendar",
     technologies: ["React", "JavaScript", "CSS", "HTML", "Luxon.js"],
   },
-  {
-    name: "Smart Lead Bot",
-    type: "Backend",
-    githubUrl: "https://github.com/TalMoshel1/Immediate-Lead-Engagement",
-    websiteUrl: "",
-    technologies: [
-      "Node.js",
-      "TypeScript",
-      "GreenAPI",
-      "Google API Speed Insight",
-      "ICalendar.js",
-      "OpenAI",
-    ],
-  },
+ 
     {
     name: "CV Generator",
     type: "Backend",
     githubUrl: "https://github.com/TalMoshel1/CVGenerator",
     websiteUrl: "",
     technologies: ["Java", "OpenAI", "Docker", "Handlebars", "HTML", "CSS"],
+  },
+      {
+    name: "Music Trivia",
+    type: "Frontend",
+    githubUrl: "https://github.com/TalMoshel1/music-trivia-vue",
+    websiteUrl: "https://music-trivia-vue.onrender.com",
+    technologies: ["Vue","TypeScript", "CSS"],
+  },
+        {
+    name: "Music Trivia",
+    type: "Backend",
+    githubUrl: "https://github.com/TalMoshel1/music-back2",
+    // websiteUrl: "https://music-trivia-vue.onrender.com",
+    technologies: ["Node.js", "TypeScript","Express", "MongoDB", 'mongoose'],
   },
 
 ];
