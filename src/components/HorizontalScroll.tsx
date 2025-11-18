@@ -57,13 +57,13 @@ export const items = [
     websiteUrl: "",
     technologies: ["Java", "OpenAI", "Docker", "Handlebars", "HTML", "CSS"],
   },
-      {
-    name: "Music Trivia",
-    type: "Frontend",
-    githubUrl: "https://github.com/TalMoshel1/music-trivia-vue",
-    websiteUrl: "https://music-trivia-vue.onrender.com",
-    technologies: ["Vue","TypeScript", "CSS"],
-  },
+  //     {
+  //   name: "Music Trivia",
+  //   type: "Frontend",
+  //   githubUrl: "https://github.com/TalMoshel1/music-trivia-vue",
+  //   websiteUrl: "https://music-trivia-vue.onrender.com",
+  //   technologies: ["Vue","TypeScript", "CSS"],
+  // },
         {
     name: "Music Trivia",
     type: "Backend",
