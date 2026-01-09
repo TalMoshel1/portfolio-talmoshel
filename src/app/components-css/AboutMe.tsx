@@ -9,7 +9,7 @@ function AboutMe() {
                       <div style={{color: 'rgba(122, 153, 226, 1)'}}>
                       <p>I specialize in bridging backend logic with intuitive frontend design to create seamless user experiences.</p>
                       <p>Passionate about creating real world products.</p>
-                      <p>Exoerienced in working on legacy code.</p>
+                      <p>Experienced in working on legacy code.</p>
                       </div>
 
 
